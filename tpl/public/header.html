@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<title>index</title>
+		<style>
+			#daohang{
+				height:150px;
+				background:#555;
+			}
+		</style>
+	</head>
+	<body>
+	<foreach name='list' item='v'>
+		<a href="__MODULE__/login/{$v.city_name}">{$v.city_name}</a>
+	</foreach>
+	<!-- <a href="__APP__/home/login/first">first</a> -->
+	<!-- <a href="__APP__/home/login/second">second</a> -->
+	<!-- <a href="__MODULE__/login/third">third</a> -->

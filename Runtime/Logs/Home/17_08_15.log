@@ -1,0 +1,30 @@
+[ 2017-08-15T07:24:43+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-08-15T07:46:00+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-08-15T07:47:21+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-08-15T07:47:33+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004617s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-08-15T07:50:42+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002407s ]
+ERR: 非法操作:geetest_show_verify
+

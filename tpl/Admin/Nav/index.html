@@ -1,0 +1,39 @@
+<extend name="Public:base" />
+
+<block name="content">
+<form class="" action="{:U('Admin/Nav/order')}" method="post">
+     <table class="table table-border table-bordered table-bg table-hover table-sort" id="sample-table">
+    <thead>
+      <tr class="text-c">
+         <th width="5%">排序</th>
+         <th>菜单名</th>
+         <th>连接</th>
+         <th>操作</th>
+      </tr>
+    </thead>
+    <tbody>
+	  <foreach name="data" item="v">
+	  	<tr>
+	  		<td>
+	  			<input type="text" name="{$v['id']}" value = "{$v['order_number']}"></input>
+	  		</td>
+			<td>{$v['_name']}</td>  
+			<td>{$v['mca']}</td> 
+			<td>
+				<a href="{:U('admin/nav/add',array('pid' => $v['id']))}" >添加子菜单</a>
+				<a href="{:U('admin/nav/edit',array('id' => $v['id']))}">修改</a>
+				<a href="javascript:if(confirm('确定删除？'))location='{:U('Admin/Nav/delete',array('id'=>$v['id']))}'">删除</a>
+			</td>	
+	  	</tr>
+	  </foreach>
+	  <tr>
+         <th>
+             <input class="btn btn-success" type="submit" value="排序">
+         </th>
+         <td></td>
+         <td></td>
+     </tr>
+    </tbody>
+  </table>
+  </form>
+ </block>
