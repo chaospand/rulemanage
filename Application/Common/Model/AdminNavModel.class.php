@@ -39,4 +39,39 @@ class AdminNavModel extends BaseModel{
         
     }
     
+    public function getParentChannel($action){
+        $map = array(
+            'mca' => $action,
+        );
+        $url = $this->where($map)->find();
+        //dump($url);
+        //dump($url['id']);
+        $data = $this->select();
+        //dump($data);
+        $arr=$this->getParent($data,$url['id']);
+     
+        return $arr; 
+    }
+    
+    public function getParent($data,$id){
+        //dump($id);
+        if (empty($data)) {
+            return $data;
+        }
+        $arr = array();
+        foreach($data as $v){
+            //dump($v['id']);
+            if($v['id']==$id){
+                $arr[] = $v;
+                $_n = self::getParent($data,$v['pid']);
+                if (!empty($_n)) {
+                    $arr = array_merge($arr, $_n);
+                }
+            }
+        }
+        $arrOrder = array();
+       
+        return array_reverse($arr);
+    }
+    
 }

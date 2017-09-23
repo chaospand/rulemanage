@@ -1,3 +1,0 @@
-[ 2017-08-15T07:43:44+08:00 ] ::1 /ruleManage/index.php/Admin/AuthRule/%7BU($v['mca'])%7D
-ERR: 非法操作:{U($v['mca'])}
-

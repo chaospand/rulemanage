@@ -1,0 +1,174 @@
+[ 2017-09-20T16:32:30+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-20T17:03:35+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `bid` = 0  [ RunTime:0.0004s ]
+
+[ 2017-09-20T17:05:49+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `bid` = 10  [ RunTime:0.0005s ]
+
+[ 2017-09-20T17:05:56+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `bid` = 6  [ RunTime:0.0004s ]
+
+[ 2017-09-20T17:20:20+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `bid` = 9  [ RunTime:0.0004s ]
+
+[ 2017-09-20T17:20:33+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `bid` = 6  [ RunTime:0.0004s ]
+
+[ 2017-09-20T17:21:37+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `bid` = 9  [ RunTime:0.0004s ]
+
+[ 2017-09-20T17:22:01+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `bid` = 6  [ RunTime:0.0005s ]
+
+[ 2017-09-20T17:23:46+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `bid` = 10  [ RunTime:0.0005s ]
+
+[ 2017-09-20T17:23:48+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `bid` = 6  [ RunTime:0.0004s ]
+
+[ 2017-09-20T17:23:51+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `bid` = 9  [ RunTime:0.0005s ]
+
+[ 2017-09-20T17:24:27+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `bid` = 6  [ RunTime:0.0004s ]
+
+[ 2017-09-20T17:25:57+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `bid` = 9  [ RunTime:0.0004s ]
+
+[ 2017-09-20T17:26:17+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `bid` = 6  [ RunTime:0.0004s ]
+
+[ 2017-09-20T17:26:21+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `bid` = 9  [ RunTime:0.0004s ]
+
+[ 2017-09-20T17:28:21+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `bid` = 6  [ RunTime:0.0003s ]
+
+[ 2017-09-20T17:33:23+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `bid` = 9  [ RunTime:0.0004s ]
+
+[ 2017-09-20T17:33:24+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `bid` = 6  [ RunTime:0.0006s ]
+
+[ 2017-09-20T17:33:48+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-20T17:37:30+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `bid` = 11  [ RunTime:0.0004s ]
+
+[ 2017-09-20T17:41:38+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-20T17:41:56+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-20T17:43:44+08:00 ] 127.0.0.1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-20T17:43:50+08:00 ] 127.0.0.1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-20T17:44:00+08:00 ] 127.0.0.1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-20T17:44:30+08:00 ] 127.0.0.1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+ERR: 非法操作:geetest_show_verify
+

@@ -1,0 +1,77 @@
+[ 2017-09-20T15:55:02+08:00 ] ::1 /ruleManage/index.php/admin/nav/add
+ERR: 1062:Duplicate entry 'admin/FrontUser/listItems' for key 'name'
+ [ SQL语句 ] : INSERT INTO `chaos_auth_rule` (`pid`,`name`,`title`) VALUES ('39','admin/FrontUser/listItems','用户数据')
+
+[ 2017-09-20T15:56:27+08:00 ] ::1 /ruleManage/index.php/admin/nav/add
+ERR: 1062:Duplicate entry 'admin/FrontUser/listItems' for key 'name'
+ [ SQL语句 ] : INSERT INTO `chaos_auth_rule` (`pid`,`name`,`title`) VALUES ('39','admin/FrontUser/listItems','前台用户数据')
+
+[ 2017-09-20T15:58:57+08:00 ] ::1 /ruleManage/index.php/admin/front/listItems
+ERR: 非法操作:listItems
+
+[ 2017-09-20T15:59:07+08:00 ] ::1 /ruleManage/index.php/admin/front/listItems
+ERR: 非法操作:listItems
+
+[ 2017-09-20T16:07:38+08:00 ] ::1 /ruleManage/index.php/admin/nav/add
+ERR: 1062:Duplicate entry 'admin/FrontUser/listItems' for key 'name'
+ [ SQL语句 ] : INSERT INTO `chaos_auth_rule` (`pid`,`name`,`title`) VALUES ('29','admin/FrontUser/listItems','前台用户数据')
+
+[ 2017-09-20T17:02:12+08:00 ] ::1 /ruleManage/index.php/admin/front/U('home/index/getSuppliesBybid')?6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+ERR: 非法操作:U('home
+
+[ 2017-09-20T17:23:55+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0041s ]
+
+[ 2017-09-20T17:24:28+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0039s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `chaos_itemreturn` (`createtime`,`bid`,`comsume`,`sid`,`uid`,`returncash`) VALUES ('2017-09-20 16:32:49','6','123','2','2','43.8') [ RunTime:0.0004s ]
+
+[ 2017-09-20T17:25:34+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0099s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `chaos_itemreturn` (`createtime`,`bid`,`comsume`,`sid`,`uid`,`returncash`) VALUES ('2017-09-20 16:32:49','6','123','2','2','43.8') [ RunTime:0.0004s ]
+
+[ 2017-09-20T17:25:59+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0071s ]
+
+[ 2017-09-20T17:26:22+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0044s ]
+
+[ 2017-09-20T17:28:24+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+

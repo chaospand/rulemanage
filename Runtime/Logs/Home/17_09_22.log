@@ -1,0 +1,196 @@
+[ 2017-09-22T08:50:13+08:00 ] 127.0.0.1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T09:11:06+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T09:14:00+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T09:14:34+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T09:14:58+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T09:56:41+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T10:26:40+08:00 ] 127.0.0.1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T10:26:49+08:00 ] 127.0.0.1 /ruleManage/index.php/Home/Index/geetest_show_verify
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T10:54:12+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T10:58:13+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T11:14:07+08:00 ] 127.0.0.1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T13:49:58+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T13:50:11+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T13:50:18+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T13:50:29+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` IN ('2','3','4','5')  [ RunTime:0.0005s ]
+
+[ 2017-09-22T13:56:05+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` IN ('2','3','4','5')  [ RunTime:0.0016s ]
+
+[ 2017-09-22T14:00:58+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T14:02:20+08:00 ] 127.0.0.1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T14:02:29+08:00 ] 127.0.0.1 /ruleManage/index.php/Home/Index/geetest_show_verify
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T14:03:01+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T14:03:22+08:00 ] 127.0.0.1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T14:03:31+08:00 ] 127.0.0.1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T14:03:32+08:00 ] 127.0.0.1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T14:03:57+08:00 ] 127.0.0.1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: supplie E:\php\phpstudy\WWW\ruleManage\Application\Home\Controller\IndexController.class.php 第 282 行.
+
+[ 2017-09-22T14:04:23+08:00 ] 127.0.0.1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: supplie E:\php\phpstudy\WWW\ruleManage\Application\Home\Controller\IndexController.class.php 第 282 行.
+
+[ 2017-09-22T14:04:43+08:00 ] 127.0.0.1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003795s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T14:04:53+08:00 ] 127.0.0.1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004002s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T14:05:03+08:00 ] 127.0.0.1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-22T14:08:46+08:00 ] 127.0.0.1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` IN ('2','3','4','5')  [ RunTime:0.0016s ]
+
+[ 2017-09-22T14:09:07+08:00 ] 127.0.0.1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` IN ('2','3')  [ RunTime:0.0004s ]
+

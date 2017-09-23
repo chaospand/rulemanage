@@ -1,6 +1,44 @@
 <extend name='Public:base'/>
 <block name="title">xx</block>
-<block name="content">xx "content"</block>
-<block name="js">
+<block name="content">
 
+
+</block>
+<block name="js">
+<script type="text/javascript">
+//全选
+$("#checkall").click(function(){ 
+  $("input[name='id[]']").each(function(){
+	  if (this.checked) {
+		  this.checked = false;
+	  }
+	  else {
+		  this.checked = true;
+	  }
+  });
+})
+
+//单个删除
+function del(id,mid,iscid){
+	if(confirm("您确定要删除吗?")){
+		
+	}
+}
+
+//搜索
+function changesearch(){	
+    var keywords= $("input[name='keywords']")[0].value;  
+   /*  console.log(keywords);
+    $.ajax({  
+        url:"{:U('index')}",  
+        type:"get",  
+        data:{"keywords":keywords},  
+        success:function(e){  
+        	console.log(e);
+            $("#lista").html(e);               
+        }  
+    }) */
+}
+
+</script>
 </block>

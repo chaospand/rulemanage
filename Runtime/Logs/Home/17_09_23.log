@@ -1,0 +1,12 @@
+[ 2017-09-23T12:26:32+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-23T12:26:32+08:00 ] 127.0.0.1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+ERR: 非法操作:geetest_show_verify
+

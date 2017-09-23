@@ -1,0 +1,455 @@
+[ 2017-09-21T08:21:21+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003485s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-21T10:28:45+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-21T14:41:36+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-21T14:41:46+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0084s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Library\Think\Db\Driver.class.php 第 635 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+
+[ 2017-09-21T14:41:48+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` IN ('2','3','4','5','6','7')  [ RunTime:0.0005s ]
+
+[ 2017-09-21T14:42:03+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0034s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Library\Think\Db\Driver.class.php 第 635 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+
+[ 2017-09-21T14:42:05+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` IN ('2','3','4','5','6','7')  [ RunTime:0.0004s ]
+
+[ 2017-09-21T14:42:24+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` IN ('2','3','4','5')  [ RunTime:0.0004s ]
+
+[ 2017-09-21T16:47:36+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0036s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Library\Think\Db\Driver.class.php 第 635 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+
+[ 2017-09-21T16:47:38+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` IN ('2','3','4','5')  [ RunTime:0.0004s ]
+
+[ 2017-09-21T16:51:26+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-21T16:51:38+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003753s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-21T16:51:45+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-21T16:51:53+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-21T16:52:08+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0052s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Library\Think\Db\Driver.class.php 第 635 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+
+[ 2017-09-21T16:52:13+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` IN ('2','3','4','5')  [ RunTime:0.0021s ]
+
+[ 2017-09-21T17:29:26+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0035s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Library\Think\Db\Driver.class.php 第 635 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+
+[ 2017-09-21T17:40:24+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` IN ('2','3','4','5')  [ RunTime:0.0004s ]
+
+[ 2017-09-21T19:53:12+08:00 ] 169.254.45.201 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-21T20:17:00+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-21T20:17:13+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-21T20:46:15+08:00 ] 169.254.45.201 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-21T20:46:32+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-21T21:00:48+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004011s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` IN ('2','3','4','5')  [ RunTime:0.0011s ]
+
+[ 2017-09-21T21:01:21+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0164s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Library\Think\Db\Driver.class.php 第 635 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+
+[ 2017-09-21T21:39:33+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0056s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Library\Think\Db\Driver.class.php 第 635 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+
+[ 2017-09-21T21:39:36+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` IN ('2','3','4','5')  [ RunTime:0.0004s ]
+
+[ 2017-09-21T21:39:39+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0053s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Library\Think\Db\Driver.class.php 第 635 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+
+[ 2017-09-21T21:39:47+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` IN ('2','3','4','5')  [ RunTime:0.0005s ]
+
+[ 2017-09-21T21:39:52+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0053s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Library\Think\Db\Driver.class.php 第 635 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+
+[ 2017-09-21T21:39:54+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001971s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` IN ('2','3','4','5')  [ RunTime:0.0004s ]
+
+[ 2017-09-21T21:41:40+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0047s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Library\Think\Db\Driver.class.php 第 635 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+
+[ 2017-09-21T21:41:43+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` IN ('2','3','4','5')  [ RunTime:0.0005s ]
+
+[ 2017-09-21T21:41:45+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0047s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Library\Think\Db\Driver.class.php 第 635 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+
+[ 2017-09-21T21:41:48+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` IN ('2','3','4','5')  [ RunTime:0.0004s ]
+
+[ 2017-09-21T21:41:50+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0053s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Library\Think\Db\Driver.class.php 第 635 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+
+[ 2017-09-21T21:42:09+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` IN ('2','3','4','5')  [ RunTime:0.0004s ]
+
+[ 2017-09-21T21:42:14+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0066s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Library\Think\Db\Driver.class.php 第 635 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+
+[ 2017-09-21T21:45:05+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: supplie E:\php\phpstudy\WWW\ruleManage\Application\Home\Controller\IndexController.class.php 第 282 行.
+
+[ 2017-09-21T21:49:07+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` IN ('2','3','4','5')  [ RunTime:0.0006s ]
+
+[ 2017-09-21T21:53:28+08:00 ] ::1 /ruleManage/index.php/home/index/getSuppliesBybid?bid=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` IN ('2','3','4','5')  [ RunTime:0.0004s ]
+
+[ 2017-09-21T21:58:49+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-21T21:59:00+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-21T21:59:08+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-21T22:24:26+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-21T22:24:48+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004617s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-21T23:13:41+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+ERR: 非法操作:geetest_show_verify
+
+[ 2017-09-21T23:19:27+08:00 ] ::1 /ruleManage/index.php/Home/Index/geetest_show_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+ERR: 非法操作:geetest_show_verify
+

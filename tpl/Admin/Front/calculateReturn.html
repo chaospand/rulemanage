@@ -1,0 +1,160 @@
+<extend name="Public:frontBase" />
+<block name="content">
+ <div class="panel admin-panel">
+  <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>查询添加返款</strong></div>
+  <div class="body-content">
+    <form method="post" id="form1" class="form-x" action="{:U('admin/front/calculateReturn')}">
+      <div class="form-group">
+        <div class="label">
+          <label>日期：</label>
+        </div>
+        <div class="field">
+        <input type="text" name="createtime" class="input w50 float-left margin-right" id="dateinfo" data-validate="required:请输入时间" />
+		<div class="clear"></div>
+        <div class="tips"></div>
+        </div>
+      </div>
+    <div class="form-group">
+        <div class="label">
+          <label>业务名称：</label>
+        </div>
+        <div class="field">
+		  <select name="bid" class="input w50" >
+		   <option value="">请选择业务</option>
+		   <foreach name="business" item="b">
+            	 <option value="{$b['id']}">{$b['businessname']}</option>
+            </foreach>
+            </select>
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>消费金额：</label>
+        </div>
+        <div class="field">
+         <input type="text" class="input w50" placeholder="请输入消费金额" value="" name="comsume" data-validate="required:请输入消费金额" />
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>耗材名称：</label>
+        </div>
+        <div class="field">
+		  <select name="sid" class="input w50">
+            <option value="">请选择耗材</option>
+             <!--<foreach name="supplie" item="s">
+            	 <option value="{$s['id']}">{$s['suppliename']}</option> 
+            </foreach> -->
+            </select>
+          <div class="tips"></div>
+        </div>
+      </div>
+
+
+	   <div class="form-group">
+        <div class="label">
+          <label>耗材数量：</label>
+        </div>
+        <div class="field">
+         <input type="text" class="input w50" placeholder="请输入耗材数量" value="" name="scount" data-validate="required:请输入耗材数量" />
+          <div class="tips"></div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <input class="button bg-main icon-check-square-o" onclick="postform(event)" type="submit"/>
+        </div>
+      </div>
+    </form>
+    
+    <div class="form-group">
+        <div class="label">
+          <label><strong>返现金额：</strong></label>
+         <!-- <div id="result">0元</div> -->
+          <label ><strong id="result">0元</strong></label>
+        </div>
+      
+      </div>
+  </div>
+</div>
+ </block>
+  <block name="js">
+  <script src="__PUBLIC__/js/pintuer.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/js/umeditor/umeditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/js/umeditor/umeditor.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/js/umeditor/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript" src="__PUBLIC__/jeDate/jedate.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/js/jquery.form.js"></script>
+<script type="text/javascript">
+    var umMonth = UM.getEditor('editor-year');
+    $('select').select();
+    jeDate({
+		dateCell:"#dateinfo",
+		format:"YYYY-MM-DD hh:mm:ss",
+		isinitVal:true,
+		isTime:true, //isClear:false,
+		minDate:"2017-01-08 00:00:00",
+	})
+	
+ 	 $("select[name='bid']").change(function() {  
+		 
+		 let bid = $(this).val();
+		 console.log(" var selected_value = $(this).val():"+ bid);
+		 let data= {'bid':bid};
+		 if(bid!=""){
+			 $.ajax({
+				  type: 'get',
+				  url: '__APP__/home/index/getSuppliesBybid',
+				  data: data,
+				  success: function(data){
+					  console.log(data);
+					  if(data instanceof Array && data.length!=0){
+						  console.log("in add");
+						  $("select[name='sid']").empty();
+						  for(let i=0;i<data.length;i++){
+							  $("select[name='sid']").append("<option value='"+data[i]['id']+"'>"+data[i]['suppliename']+"</option>"); 
+						  }  
+					  }else{
+						  $("select[name='sid']").empty();
+						  $("select[name='sid']").append("<option value=''>该业务没有耗材可选</option>"); 
+					  }
+					  
+					  
+				  }
+				});
+		 }
+		
+	 });
+	 
+/* 	 function getSupplie(option){
+		 console.log(" var selected_value = $(this).val():"+ option.val()  );
+	 } */
+	
+  	function postform(event){
+    	event.preventDefault();
+        $("#form1").ajaxSubmit(function(result){	
+        	console.log(result);
+        	if(result.state != undefined){
+        		if(result.state){
+            		$("#result").html(result.message+"元		数据已添加到后台");
+            		
+            	}else{
+            		$("#result").html(result.message);
+            	}
+        	}else{
+        		$("#result").html(result.info);
+        	}
+        	
+        });
+        
+    }
+	
+	
+ </script>
+ </block>

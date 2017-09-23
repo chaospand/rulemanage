@@ -13,6 +13,7 @@
                        <td>{$v['name']}</td>
                        <td>{$v['title']}</td>
                        <td>
+                       	   <a href="{:U('Admin/authRule/changePassword',array('id'=>$v['id']))}">修改密码</a>
                            <a href="{:U('Admin/authRule/editUser',array('id'=>$v['id']))}">修改资料</a>
                            <a href="{:U('Admin/authRule/editUserGroup',array('id'=>$v['id']))}">修改用户组</a>
                        </td>

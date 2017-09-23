@@ -1,0 +1,137 @@
+[ 2017-09-22T08:51:41+08:00 ] 127.0.0.1 /ruleManage/index.php/Admin/Front/edit/id/94
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+
+[ 2017-09-22T08:53:12+08:00 ] 127.0.0.1 /ruleManage/index.php/Admin/Front/edit/id/95
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+
+[ 2017-09-22T08:54:03+08:00 ] 127.0.0.1 /ruleManage/index.php/Admin/Front/edit/id/93
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+
+[ 2017-09-22T08:56:04+08:00 ] 127.0.0.1 /ruleManage/index.php/Admin/Front/edit/id/93
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+
+[ 2017-09-22T13:52:42+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+NOTIC: [2048] Declaration of Common\Model\FrontNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\FrontNavModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `chaos_front_nav` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `chaos_front_nav`  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\AdminNavModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `chaos_admin_nav` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: action E:\php\phpstudy\WWW\ruleManage\Application\Common\Controller\FrontBaseController.class.php 第 21 行.
+SQL: SELECT * FROM `chaos_admin_nav` WHERE `mca` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `chaos_admin_nav`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0049s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: scount E:\php\phpstudy\WWW\ruleManage\Application\Admin\Controller\FrontController.class.php 第 32 行.
+SQL: INSERT INTO `chaos_itemreturn` (`createtime`,`bid`,`comsume`,`sid`,`scount`,`uid`,`returncash`) VALUES ('2017-09-22 13:50:24','13','113','4','10','2','138.99') [ RunTime:0.0015s ]
+
+[ 2017-09-22T13:53:43+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+NOTIC: [2048] Declaration of Common\Model\FrontNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\FrontNavModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `chaos_front_nav` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `chaos_front_nav`  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\AdminNavModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `chaos_admin_nav` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined variable: action E:\php\phpstudy\WWW\ruleManage\Application\Common\Controller\FrontBaseController.class.php 第 21 行.
+SQL: SELECT * FROM `chaos_admin_nav` WHERE `mca` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `chaos_admin_nav`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0067s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: scount E:\php\phpstudy\WWW\ruleManage\Application\Admin\Controller\FrontController.class.php 第 32 行.
+SQL: INSERT INTO `chaos_itemreturn` (`createtime`,`bid`,`comsume`,`sid`,`scount`,`uid`,`returncash`) VALUES ('2017-09-22 13:50:24','13','113','4','10','2','138.99') [ RunTime:0.0005s ]
+
+[ 2017-09-22T13:54:18+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+NOTIC: [2048] Declaration of Common\Model\FrontNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\FrontNavModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `chaos_front_nav` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `chaos_front_nav`  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\AdminNavModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `chaos_admin_nav` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: action E:\php\phpstudy\WWW\ruleManage\Application\Common\Controller\FrontBaseController.class.php 第 21 行.
+SQL: SELECT * FROM `chaos_admin_nav` WHERE `mca` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `chaos_admin_nav`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0048s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-09-22T13:54:28+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+NOTIC: [2048] Declaration of Common\Model\FrontNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\FrontNavModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `chaos_front_nav` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `chaos_front_nav`  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\AdminNavModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `chaos_admin_nav` [ RunTime:0.0082s ]
+NOTIC: [8] Undefined variable: action E:\php\phpstudy\WWW\ruleManage\Application\Common\Controller\FrontBaseController.class.php 第 21 行.
+SQL: SELECT * FROM `chaos_admin_nav` WHERE `mca` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `chaos_admin_nav`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0069s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `chaos_itemreturn` (`createtime`,`bid`,`comsume`,`sid`,`scount`,`uid`,`returncash`) VALUES ('2017-09-22 13:50:24','13','113','4','7','2','35.67') [ RunTime:0.0006s ]
+
+[ 2017-09-22T13:56:15+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+NOTIC: [2048] Declaration of Common\Model\FrontNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\FrontNavModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `chaos_front_nav` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `chaos_front_nav`  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\AdminNavModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `chaos_admin_nav` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined variable: action E:\php\phpstudy\WWW\ruleManage\Application\Common\Controller\FrontBaseController.class.php 第 21 行.
+SQL: SELECT * FROM `chaos_admin_nav` WHERE `mca` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `chaos_admin_nav`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0036s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+SQL: INSERT INTO `chaos_itemreturn` (`createtime`,`bid`,`comsume`,`sid`,`scount`,`uid`,`returncash`) VALUES ('2017-09-22 13:56:03','13','121','5','7','2','79.95') [ RunTime:0.0023s ]
+
+[ 2017-09-22T13:57:01+08:00 ] ::1 /ruleManage/index.php/admin/front/listData
+ERR: 1054:Unknown column 'b.scount' in 'field list'
+ [ SQL语句 ] : SELECT aga.id,b.businessname,b.scount,b.percent,u.front_name,s.suppliename,s.price,aga.comsume,aga.returncash,aga.createtime FROM chaos_itemreturn aga LEFT JOIN chaos_business b ON b.id = bid LEFT JOIN chaos_front_user u ON u.id = uid LEFT JOIN chaos_supplie s ON s.id = sid  LIMIT 0,25  
+
+[ 2017-09-22T13:57:34+08:00 ] ::1 /ruleManage/index.php/admin/front/listData
+ERR: 1054:Unknown column 'b.scount' in 'field list'
+ [ SQL语句 ] : SELECT aga.id,b.businessname,b.scount,b.percent,u.front_name,s.suppliename,s.price,aga.comsume,aga.returncash,aga.createtime,aga.scount FROM chaos_itemreturn aga LEFT JOIN chaos_business b ON b.id = bid LEFT JOIN chaos_front_user u ON u.id = uid LEFT JOIN chaos_supplie s ON s.id = sid  LIMIT 0,25  
+
+[ 2017-09-22T13:57:35+08:00 ] ::1 /ruleManage/index.php/admin/front/listData
+ERR: 1054:Unknown column 'b.scount' in 'field list'
+ [ SQL语句 ] : SELECT aga.id,b.businessname,b.scount,b.percent,u.front_name,s.suppliename,s.price,aga.comsume,aga.returncash,aga.createtime,aga.scount FROM chaos_itemreturn aga LEFT JOIN chaos_business b ON b.id = bid LEFT JOIN chaos_front_user u ON u.id = uid LEFT JOIN chaos_supplie s ON s.id = sid  LIMIT 0,25  
+
+[ 2017-09-22T13:57:37+08:00 ] ::1 /ruleManage/index.php/admin/front/listData
+ERR: 1054:Unknown column 'b.scount' in 'field list'
+ [ SQL语句 ] : SELECT aga.id,b.businessname,b.scount,b.percent,u.front_name,s.suppliename,s.price,aga.comsume,aga.returncash,aga.createtime,aga.scount FROM chaos_itemreturn aga LEFT JOIN chaos_business b ON b.id = bid LEFT JOIN chaos_front_user u ON u.id = uid LEFT JOIN chaos_supplie s ON s.id = sid  LIMIT 0,25  
+
+[ 2017-09-22T13:57:40+08:00 ] ::1 /ruleManage/index.php/admin/front/listData
+ERR: 1054:Unknown column 'b.scount' in 'field list'
+ [ SQL语句 ] : SELECT aga.id,b.businessname,b.scount,b.percent,u.front_name,s.suppliename,s.price,aga.comsume,aga.returncash,aga.createtime,aga.scount FROM chaos_itemreturn aga LEFT JOIN chaos_business b ON b.id = bid LEFT JOIN chaos_front_user u ON u.id = uid LEFT JOIN chaos_supplie s ON s.id = sid  LIMIT 0,25  
+

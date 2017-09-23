@@ -1,0 +1,221 @@
+[ 2017-09-21T10:04:51+08:00 ] ::1 /ruleManage/index.php/admin/business/add
+ERR: XML标签语法错误 : condition="$k%4==1 AND $K
+
+[ 2017-09-21T10:07:24+08:00 ] ::1 /ruleManage/index.php/admin/business/add
+ERR: XML标签语法错误 : condition="$k%4
+
+[ 2017-09-21T10:07:28+08:00 ] ::1 /ruleManage/index.php/admin/business/add
+ERR: XML标签语法错误 : condition="$k%4
+
+[ 2017-09-21T10:08:19+08:00 ] ::1 /ruleManage/index.php/admin/business/add
+ERR: XML标签语法错误 : condition="$k%4
+
+[ 2017-09-21T10:09:03+08:00 ] ::1 /ruleManage/index.php/admin/business/add
+ERR: XML标签语法错误 : condition="$k%4
+
+[ 2017-09-21T15:50:03+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+ERR: Think\Model:getTreeData方法不存在！
+
+[ 2017-09-21T15:50:44+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+ERR: 1054:Unknown column 'order_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `chaos_front_nav` ORDER BY order_number is null,`order_number`,`id` 
+
+[ 2017-09-21T15:51:51+08:00 ] ::1 /ruleManage/index.php/admin/front/list
+ERR: 非法操作:list
+
+[ 2017-09-21T15:54:35+08:00 ] ::1 /ruleManage/index.php/admin/front/list
+ERR: 非法操作:list
+
+[ 2017-09-21T15:59:28+08:00 ] ::1 /ruleManage/index.php/admin/front/list%EF%BD%84%EF%BD%81%EF%BD%94%EF%BD%81
+ERR: 非法操作:listｄａｔａ
+
+[ 2017-09-21T15:59:43+08:00 ] ::1 /ruleManage/index.php/admin/front/listdata
+ERR: 模板不存在:./tpl/Admin/Front/listdata.html
+
+[ 2017-09-21T16:52:10+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [2048] Declaration of Common\Model\FrontNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\FrontNavModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `chaos_front_nav` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `chaos_front_nav`  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\AdminNavModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `chaos_admin_nav` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: action E:\php\phpstudy\WWW\ruleManage\Application\Common\Controller\FrontBaseController.class.php 第 21 行.
+SQL: SELECT * FROM `chaos_admin_nav` WHERE `mca` = null LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `chaos_admin_nav`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0085s ]
+
+[ 2017-09-21T16:52:18+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006103s ]
+NOTIC: [2048] Declaration of Common\Model\FrontNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\FrontNavModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `chaos_front_nav` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `chaos_front_nav`  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\AdminNavModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `chaos_admin_nav` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined variable: action E:\php\phpstudy\WWW\ruleManage\Application\Common\Controller\FrontBaseController.class.php 第 21 行.
+SQL: SELECT * FROM `chaos_admin_nav` WHERE `mca` = null LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `chaos_admin_nav`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0039s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `chaos_itemreturn` (`createtime`,`bid`,`comsume`,`sid`,`uid`,`returncash`) VALUES ('2017-09-21 16:52:06','13','123','4','3','136.53') [ RunTime:0.0007s ]
+
+[ 2017-09-21T17:29:23+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+NOTIC: [2048] Declaration of Common\Model\FrontNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\FrontNavModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `chaos_front_nav` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `chaos_front_nav`  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\AdminNavModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `chaos_admin_nav` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined variable: action E:\php\phpstudy\WWW\ruleManage\Application\Common\Controller\FrontBaseController.class.php 第 21 行.
+SQL: SELECT * FROM `chaos_admin_nav` WHERE `mca` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `chaos_admin_nav`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0039s ]
+
+[ 2017-09-21T17:29:27+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+NOTIC: [2048] Declaration of Common\Model\FrontNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\FrontNavModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `chaos_front_nav` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `chaos_front_nav`  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\AdminNavModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `chaos_admin_nav` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined variable: action E:\php\phpstudy\WWW\ruleManage\Application\Common\Controller\FrontBaseController.class.php 第 21 行.
+SQL: SELECT * FROM `chaos_admin_nav` WHERE `mca` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `chaos_admin_nav`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0043s ]
+
+[ 2017-09-21T17:29:39+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+NOTIC: [2048] Declaration of Common\Model\FrontNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\FrontNavModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `chaos_front_nav` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `chaos_front_nav`  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\AdminNavModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `chaos_admin_nav` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined variable: action E:\php\phpstudy\WWW\ruleManage\Application\Common\Controller\FrontBaseController.class.php 第 21 行.
+SQL: SELECT * FROM `chaos_admin_nav` WHERE `mca` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `chaos_admin_nav`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0039s ]
+
+[ 2017-09-21T17:40:30+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [2048] Declaration of Common\Model\FrontNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\FrontNavModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `chaos_front_nav` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `chaos_front_nav`  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\AdminNavModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `chaos_admin_nav` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined variable: action E:\php\phpstudy\WWW\ruleManage\Application\Common\Controller\FrontBaseController.class.php 第 21 行.
+SQL: SELECT * FROM `chaos_admin_nav` WHERE `mca` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `chaos_admin_nav`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0036s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `chaos_itemreturn` (`createtime`,`bid`,`comsume`,`sid`,`uid`,`returncash`) VALUES ('2017-09-21 17:40:22','13','13','4','3','1.23') [ RunTime:0.0004s ]
+
+[ 2017-09-21T20:23:54+08:00 ] ::1 /ruleManage/index.php/Admin/Front/edit/id/96
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `chaos_supplie` WHERE `id` IN () 
+
+[ 2017-09-21T21:01:58+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+NOTIC: [2048] Declaration of Common\Model\FrontNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\FrontNavModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `chaos_front_nav` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `chaos_front_nav`  [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\AdminNavModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `chaos_admin_nav` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: action E:\php\phpstudy\WWW\ruleManage\Application\Common\Controller\FrontBaseController.class.php 第 21 行.
+SQL: SELECT * FROM `chaos_admin_nav` WHERE `mca` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `chaos_admin_nav`  [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0064s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0012s ]
+ERR: 1062:Duplicate entry '97' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `chaos_itemreturn` (`id`,`createtime`,`bid`,`comsume`,`sid`,`uid`,`returncash`) VALUES ('97','2017-09-21 21:01:55','13','13','4','3','1.23')
+ERR: 1062:Duplicate entry '97' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `chaos_itemreturn` (`id`,`createtime`,`bid`,`comsume`,`sid`,`uid`,`returncash`) VALUES ('97','2017-09-21 21:01:55','13','13','4','3','1.23')
+
+[ 2017-09-21T21:02:10+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003567s ]
+NOTIC: [2048] Declaration of Common\Model\FrontNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\FrontNavModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `chaos_front_nav` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `chaos_front_nav`  [ RunTime:0.0031s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\AdminNavModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `chaos_admin_nav` [ RunTime:0.0071s ]
+NOTIC: [8] Undefined variable: action E:\php\phpstudy\WWW\ruleManage\Application\Common\Controller\FrontBaseController.class.php 第 21 行.
+SQL: SELECT * FROM `chaos_admin_nav` WHERE `mca` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `chaos_admin_nav`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0111s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0005s ]
+ERR: 1062:Duplicate entry '97' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `chaos_itemreturn` (`id`,`createtime`,`bid`,`comsume`,`sid`,`uid`,`returncash`) VALUES ('97','2017-09-21 21:01:55','13','13','4','3','1.23')
+ERR: 1062:Duplicate entry '97' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `chaos_itemreturn` (`id`,`createtime`,`bid`,`comsume`,`sid`,`uid`,`returncash`) VALUES ('97','2017-09-21 21:01:55','13','13','4','3','1.23')
+
+[ 2017-09-21T21:53:33+08:00 ] ::1 /ruleManage/index.php/admin/front/calculateReturn
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [2048] Declaration of Common\Model\FrontNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\FrontNavModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `chaos_front_nav` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `chaos_front_nav`  [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\AdminNavModel::getTreeData() should be compatible with Common\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') E:\php\phpstudy\WWW\ruleManage\Application\Common\Model\AdminNavModel.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `chaos_admin_nav` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined variable: action E:\php\phpstudy\WWW\ruleManage\Application\Common\Controller\FrontBaseController.class.php 第 21 行.
+SQL: SELECT * FROM `chaos_admin_nav` WHERE `mca` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `chaos_admin_nav`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chaos_itemreturn` [ RunTime:0.0039s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' E:\php\phpstudy\WWW\ruleManage\ThinkPHP\Common\functions.php 第 665 行.
+SQL: SHOW COLUMNS FROM `chaos_business` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `chaos_business` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `chaos_supplie` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `chaos_supplie` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `chaos_itemreturn` (`createtime`,`bid`,`comsume`,`sid`,`uid`,`returncash`) VALUES ('2017-09-21 21:53:25','13','123','2','3','134.685') [ RunTime:0.0016s ]
+
+[ 2017-09-21T22:24:03+08:00 ] ::1 /ruleManage/index.php/admin/front/test
+ERR: 非法操作:test
+
+[ 2017-09-21T22:28:11+08:00 ] ::1 /ruleManage/index.php/Admin/Front/test
+ERR: 非法操作:test
+
+[ 2017-09-21T22:28:43+08:00 ] ::1 /ruleManage/index.php/Admin/Front/test
+ERR: Think\Model:v方法不存在！
+
+[ 2017-09-21T22:28:44+08:00 ] ::1 /ruleManage/index.php/Admin/Front/test
+ERR: Think\Model:v方法不存在！
+
+[ 2017-09-21T22:28:44+08:00 ] ::1 /ruleManage/index.php/Admin/Front/test
+ERR: Think\Model:v方法不存在！
+
+[ 2017-09-21T22:29:13+08:00 ] ::1 /ruleManage/index.php/Admin/Front/test
+ERR: Think\Model:condition方法不存在！
+
+[ 2017-09-21T22:29:14+08:00 ] ::1 /ruleManage/index.php/Admin/Front/test
+ERR: Think\Model:condition方法不存在！
+

@@ -1,0 +1,11 @@
+<include file="./Tpl/public/loginHeader.html"/>
+<body>
+<form action="__APP__/home/index/bindOpenid" method="post">
+	<h1>{$Think.session.userInfo.openid}</h1>
+	<input type="text" name="username"/>
+	<input type="password" name="password"/>
+	
+	<input type="submit" value="登录并绑定微信账号"/>
+</form> 
+</body>
+</html>

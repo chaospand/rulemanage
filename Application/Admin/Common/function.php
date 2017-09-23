@@ -45,6 +45,8 @@ function app_upload_image($path,$maxSize=52428800){
     }
 }
 
+
+
 /**
  * 实例化阿里云oos
  * @return object 实例化得到的对象

@@ -1,0 +1,79 @@
+<extend name='Public:base'/>
+<block name="title">xx</block>
+<block name="content">
+<form  method="get" action="__URL__/index">
+  <div class="panel admin-panel">
+    <div class="panel-head"><strong class="icon-reorder"> 前台用户列表</strong> <a href="" style="float:right; display:none;">添加字段</a></div>
+ <div class="padding border-bottom">
+      <ul class="search" style="padding-left:10px;">
+        <li> <a class="button border-main icon-plus-square-o" href="__CONTROLLER__/add"> 添加前台用户</a> </li>
+        <li>搜索：</li>
+		
+		<li>
+          <input type="text" placeholder="请输入搜索关键字" value="{$keywords}" name="keywords" class="input" style="width:250px; line-height:17px;display:inline-block" />
+          <button class="button border-main icon-search" type="submit">查询</button></li>
+          <!-- <a href="javascript:void(0)" class="button border-main icon-search" onclick="changesearch()" > 搜索</a></li> -->
+      </ul>
+    </div>
+    <table class="table table-hover text-center">
+      <tr>
+        <th>前台用户账号</th>
+        <th>前台用户密码</th>
+        <th width="310">操作</th>
+      </tr>
+      <foreach name="list" item="v">
+      	 <tr>
+	        <td>{$v['front_name']}</td>
+	        <td>{$v['password']}</td>
+	        <td><div class="button-group"> <a class="button border-main" href="{:U('edit',array('id'=>$v['id']))}"><span class="icon-edit"></span> 修改密码</a>
+	         <a class="button border-red" href="javascript:if(confirm('确定删除？'))location='{:U('delete',array('id' => $v['id']))}'"><span class="icon-trash-o"></span> 删除</a> </div></td>
+	    </tr>
+	   
+      </foreach>
+  		<tr>
+       	 <td colspan="8">{$page}</td>
+      	</tr>
+   
+    </table>
+  </div>
+</form>
+
+</block>
+<block name="js">
+<script type="text/javascript">
+//全选
+$("#checkall").click(function(){ 
+  $("input[name='id[]']").each(function(){
+	  if (this.checked) {
+		  this.checked = false;
+	  }
+	  else {
+		  this.checked = true;
+	  }
+  });
+})
+
+//单个删除
+function del(id,mid,iscid){
+	if(confirm("您确定要删除吗?")){
+		
+	}
+}
+
+//搜索
+function changesearch(){	
+    var keywords= $("input[name='keywords']")[0].value;  
+   /*  console.log(keywords);
+    $.ajax({  
+        url:"{:U('index')}",  
+        type:"get",  
+        data:{"keywords":keywords},  
+        success:function(e){  
+        	console.log(e);
+            $("#lista").html(e);               
+        }  
+    }) */
+}
+
+</script>
+</block>

@@ -1,0 +1,126 @@
+<extend name="Public:frontBase" />
+<block name="content">
+<form  method="get" action="__URL__/index">
+  <div class="panel admin-panel">
+    <div class="panel-head"><strong class="icon-reorder"> 前台数据列表</strong> <a href="" style="float:right; display:none;">添加字段</a></div>
+ <div class="padding border-bottom">
+      <ul class="search" style="padding-left:10px;">
+        <!-- <li> <a class="button border-main icon-plus-square-o" href="__CONTROLLER__/add"> 添加前台用户</a> </li> -->
+        <!-- <li>搜索：</li>
+		
+		<li>
+          <input type="text" placeholder="请输入搜索关键字" value="{$keywords}" name="keywords" class="input" style="width:250px; line-height:17px;display:inline-block" />
+          <button class="button border-main icon-search" type="submit">查询</button></li> -->
+          <!-- <a href="javascript:void(0)" class="button border-main icon-search" onclick="changesearch()" > 搜索</a></li> -->
+      </ul>
+    </div>
+    <table class="table table-hover text-center">
+      <tr>
+      	<th>提交时间</th>
+        <th>业务名称</th>
+        <th>业务分成比例</th>
+        <th>耗材名称</th>
+        <th>耗材成本(元)</th>
+        <th>耗材数量(元)</th>
+        <th>消费金额(元)</th>
+        <th>分成金额(元)</th>
+        <th width="310">操作</th>
+      </tr>
+      <foreach name="list" item="v">
+      	 <tr>
+      	 <td>{$v['createtime']}</td>
+	        <td>{$v['businessname']}</td>
+	        <td>{$v['percent']}%</td>
+	        <td>{$v['suppliename']}</td>
+	        <td>{$v['price']}</td>
+	        <td>{$v['scount']}</td>
+	         <td>{$v['comsume']}</td>
+	        <td>{$v['returncash']}</td>
+	         <td><div class="button-group">
+	          <a class="button border-main" href="{:U('edit',array('id'=>$v['id']))}"><span class="icon-edit"></span> 修改</a>
+	         <a class="button border-red" href="javascript:if(confirm('确定删除？'))location='{:U('delete',array('id' => $v['id']))}'"><span class="icon-trash-o"></span> 删除</a></div></td>
+	    </tr>
+	   
+      </foreach>
+  		<tr>
+       	 <td colspan="8">{$page}</td>
+      	</tr>
+   
+    </table>
+  </div>
+</form>
+ </block>
+  <block name="js">
+  <script src="__PUBLIC__/js/pintuer.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/js/umeditor/umeditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/js/umeditor/umeditor.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/js/umeditor/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript" src="__PUBLIC__/jeDate/jedate.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/js/jquery.form.js"></script>
+<script type="text/javascript">
+    var umMonth = UM.getEditor('editor-year');
+    $('select').select();
+    jeDate({
+		dateCell:"#dateinfo",
+		format:"YYYY-MM-DD hh:mm:ss",
+		isinitVal:true,
+		isTime:true, //isClear:false,
+		minDate:"2017-01-08 00:00:00",
+	})
+	
+ 	 $("select[name='bid']").change(function() {  
+		 
+		 let bid = $(this).val();
+		 console.log(" var selected_value = $(this).val():"+ bid);
+		 let data= {'bid':bid};
+		 if(bid!=""){
+			 $.ajax({
+				  type: 'get',
+				  url: '__APP__/home/index/getSuppliesBybid',
+				  data: data,
+				  success: function(data){
+					  console.log(data);
+					  if(data instanceof Array && data.length!=0){
+						  console.log("in add");
+						  $("select[name='sid']").empty();
+						  for(let i=0;i<data.length;i++){
+							  $("select[name='sid']").append("<option value='"+data[i]['id']+"'>"+data[i]['suppliename']+"</option>"); 
+						  }  
+					  }else{
+						  $("select[name='sid']").empty();
+						  $("select[name='sid']").append("<option value=''>该业务没有耗材可选</option>"); 
+					  }
+					  
+					  
+				  }
+				});
+		 }
+		
+	 });
+	 
+/* 	 function getSupplie(option){
+		 console.log(" var selected_value = $(this).val():"+ option.val()  );
+	 } */
+	
+  	function postform(event){
+    	event.preventDefault();
+        $("#form1").ajaxSubmit(function(result){	
+        	console.log(result);
+        	if(result.state != undefined){
+        		if(result.state){
+            		$("#result").html(result.message+"元		数据已添加到后台");
+            		
+            	}else{
+            		$("#result").html(result.message);
+            	}
+        	}else{
+        		$("#result").html(result.info);
+        	}
+        	
+        });
+        
+    }
+	
+	
+ </script>
+ </block>

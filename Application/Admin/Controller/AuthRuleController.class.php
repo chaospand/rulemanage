@@ -2,7 +2,6 @@
 namespace Admin\Controller;
 
 use Common\Controller\AdminBaseController;
-use Think\Controller;
 
 class AuthRuleController extends AdminBaseController{
     public function index(){
@@ -220,13 +219,20 @@ class AuthRuleController extends AdminBaseController{
         if(IS_POST){
             $data = I('post.');
             $data['password'] = md5($data['password']);
-            $result = D('User')->addData($data);
-            if($result){
-                $this->success('修改成功',U('admin/AuthRule/adminUserList'));
+            $user =  D('User');
+            $check =$user->create($data);
+            if($check){
+                $result = D('User')->addData($data);
+                if($result){
+                    $this->success('修改成功',U('admin/AuthRule/adminUserList'));
+                }else{
+                    $this->error('修改失败');
+                }
             }else{
-                //echo 'error';
-                $this->error('修改失败');
+                $error = $user->getError();
+                $this->error($error);
             }
+            
         }else{
             $this->display();
         }
@@ -275,6 +281,35 @@ class AuthRuleController extends AdminBaseController{
         
     }
     
+    public function changePassword(){
+        if(IS_POST){
+            $data = I('post.');
+            unset($data['renewpass']);
+            $map=array(
+                'id'=>$data['id']
+            );
+            // dump($data);
+            $data['password'] = md5($data['password']);
+            $result = D('User')->editData($map,$data);
+            if($result){
+                $this->success('修改成功',U('admin/AuthRule/adminUserList'));
+            }else{
+                //echo 'error';
+                $this->error('修改失败');
+            }
+        }else{
+            $id = I('id');
+            $map = array(
+                'id' => $id,
+            );
+            $data = D('User')->findData($map);
+            $assign = array(
+                'data' => $data
+            );
+            $this->assign($assign);
+            $this->display();
+        }
+    }
     
     
     
