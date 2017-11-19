@@ -266,4 +266,4 @@ CREATE TABLE `chaos_user` (
 -- ----------------------------
 INSERT INTO `chaos_user` VALUES ('1', 'chaos', '827ccb0eea8a706c4c34a16891f84e7b', 'oVijbsvpDEoQ_GUyjBK7yUptjl3E', null);
 INSERT INTO `chaos_user` VALUES ('18', 'chaos1', '827ccb0eea8a706c4c34a16891f84e7b', null, null);
-INSERT INTO `chaos_user` VALUES ('17', 'admin', '7b9a960fca0f271de3950ea226b3d47f', null, null);
+INSERT INTO `chaos_user` VALUES ('17', 'admin', 'e10adc3949ba59abbe56e057f20f883e', null, null);
